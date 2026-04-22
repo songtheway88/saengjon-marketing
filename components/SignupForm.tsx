@@ -6,8 +6,9 @@ export default function SignupForm() {
   const KAKAO_CHANNEL_ID = "_fpxgTn";
 
   const handleAddChannel = () => {
-    if (window.Kakao && window.Kakao.isInitialized()) {
-      window.Kakao.Channel.addChannel({ channelPublicId: KAKAO_CHANNEL_ID });
+    const w = window as any;
+    if (w.Kakao && w.Kakao.isInitialized()) {
+      w.Kakao.Channel.addChannel({ channelPublicId: KAKAO_CHANNEL_ID });
     } else {
       window.open(`https://pf.kakao.com/${KAKAO_CHANNEL_ID}`, "_blank");
     }

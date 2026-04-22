@@ -2,6 +2,7 @@ import { createServerClient } from "@/lib/supabase";
 import Navbar from "@/components/Navbar";
 import LiveBanner from "@/components/LiveBanner";
 import Hero from "@/components/Hero";
+import Reviews from "@/components/Reviews";
 import CourseGrid from "@/components/CourseGrid";
 import SignupForm from "@/components/SignupForm";
 import Footer from "@/components/Footer";
@@ -41,6 +42,7 @@ export default async function Home() {
       {/* 메인 콘텐츠 */}
       <main className="flex-1">
         <Hero />
+        <Reviews />
         <CourseGrid />
         <SignupForm />
       </main>

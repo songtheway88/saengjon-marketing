@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install:*)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/songdeog-il/.nvm/versions/**)",
+      "Bash(ls /usr/local/bin/npm*)",
+      "Read(//usr/local/lib/node_modules/.bin/**)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/usr/local/bin/npm install:*)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(echo $PATH)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:developers.kakao.com)"
+    ]
+  }
+}

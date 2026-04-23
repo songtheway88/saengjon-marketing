@@ -10,7 +10,7 @@ export default function SignupForm() {
     if (w.Kakao && w.Kakao.isInitialized()) {
       w.Kakao.Channel.addChannel({ channelPublicId: KAKAO_CHANNEL_ID });
     } else {
-      window.open(`https://pf.kakao.com/${KAKAO_CHANNEL_ID}`, "_blank");
+      window.open(`http://pf.kakao.com/${KAKAO_CHANNEL_ID}/chat`, "_blank");
     }
   };
 

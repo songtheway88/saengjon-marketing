@@ -11,7 +11,7 @@ export default function Footer() {
             <p className="text-sm text-brand-gray mt-1">
               카카오채널:{" "}
               <a
-                href="https://pf.kakao.com/_fpxgTn"
+                href="http://pf.kakao.com/_fpxgTn/chat"
                 className="text-brand-blue hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -16,10 +16,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { label: "강의", href: "#courses" },
-    { label: "수강 신청", href: "#signup" },
-    { label: "라이브", href: "/live" },
-    { label: "소개", href: "/about" },
+    { label: "회사 소개", href: "/" },
+    { label: "포트폴리오", href: "/#portfolio" },
+    { label: "교육 안내", href: "/education" },
+    { label: "수강 신청", href: "/education#signup" },
   ];
 
   return (
@@ -51,7 +51,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#signup"
+              href="/education#signup"
               className="ml-2 px-4 py-2 text-sm font-semibold text-white bg-brand-blue rounded-lg hover:bg-blue-700 transition-colors"
             >
               무료 등록하기
@@ -83,7 +83,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="#signup"
+                href="/education#signup"
                 onClick={() => setIsMenuOpen(false)}
                 className="mt-3 px-4 py-3 text-sm font-semibold text-white bg-brand-blue rounded-lg text-center hover:bg-blue-700 transition-colors"
               >

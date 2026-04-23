@@ -21,10 +21,10 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-col gap-2 text-sm text-brand-gray">
-            <a href="#courses" className="hover:text-brand-dark transition-colors">강의 목록</a>
-            <a href="#signup" className="hover:text-brand-dark transition-colors">수강 신청</a>
-            <a href="/live" className="hover:text-brand-dark transition-colors">라이브 일정</a>
-            <a href="/about" className="hover:text-brand-dark transition-colors">대표 소개</a>
+            <a href="/" className="hover:text-brand-dark transition-colors">회사 소개</a>
+            <a href="/#portfolio" className="hover:text-brand-dark transition-colors">포트폴리오</a>
+            <a href="/education" className="hover:text-brand-dark transition-colors">교육 안내</a>
+            <a href="/education#signup" className="hover:text-brand-dark transition-colors">수강 신청</a>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-200 text-xs text-brand-gray">
